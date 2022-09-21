@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script defer src="face-api.min.js"></script>
+    <script defer src="script.js"></script>
+    <style>
+        #main-image {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        canvas {
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main-image">
+        <div style="width: 50%">
+            <img src="Benzema.jpeg" alt="" id="img1"width="500">
+        </div>
+        <div style="width: 50%">  
+            <img id="cropped-img1" src="" alt="">
+        </div>
+    </div>
+
+</body>
+
+</html>
